@@ -1,0 +1,5 @@
+Database Name: woo_commers_project1
+
+Site Name: woo_commers_project1
+username: admin
+pass: admin
