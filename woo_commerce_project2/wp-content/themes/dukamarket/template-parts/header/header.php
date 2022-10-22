@@ -9,8 +9,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Place favicon.ico in the root directory -->
       <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri()?>/<?php echo get_template_directory_uri()?>/assets/img/favicon.png">
+
       <!-- CSS here -->
-      <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/preloader.css">
+      <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/preloader.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/bootstrap.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/meanmenu.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/animate.css">
@@ -23,18 +24,14 @@
       <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>assets/flaticon/flaticon.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/font-awesome-pro.css">
       <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/default.css">
-      <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/style.css">
+      <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/assets/css/style.css"> -->
       <?php wp_head()?>
     </head>
    
    <body <?php body_class()?>>
-      <!--[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-      <![endif]-->
-
-
+     
     <!-- preloader start -->
-    <div id="loading">
+    <!-- <div id="loading">
         <div id="loading-center">
             <div id="loading-center-absolute">
                 <svg viewBox="0 0 58 58" id="mustard" class="product">
@@ -116,7 +113,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- preloader end -->
 
       <!-- back to top start -->
